@@ -1,0 +1,18 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: gray;
+}
+button {
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
