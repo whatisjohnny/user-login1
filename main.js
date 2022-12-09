@@ -8,9 +8,11 @@ btEl.addEventListener("click", btcl);
 function btcl() {
   if (i1El.value === "admin" && i2El.value === "1234") {
     h2El.innerHTML = "Success!";
-  } else if (i1El.value === "" && i2El.value === "") {
-    h2El.innerHTML = "Enter your log in information.";
+  } else if (i1El.value === "admin" && i2El.value !== "1234") {
+    h2El.innerHTML = "Incorrect Password.";
+  } else if (i1El.value !== "admin" && i2El.value === "1234") {
+    h2El.innerHTML = "Incorrect Username."
   } else {
-    h2El.innerHTML = "Incorrect Username or Password.";
+    h2El.innerHTML = "Enter your log-in information."
   }
 }
